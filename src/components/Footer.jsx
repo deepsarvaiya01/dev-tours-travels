@@ -31,7 +31,7 @@ function Footer() {
           <h4 className="text-sm font-semibold uppercase tracking-wide text-slate-900">Contact</h4>
           <ul className="mt-3 space-y-2 text-sm text-slate-600">
             <li>Email: info@devtours.in</li>
-            <li>Phone: +91-00000-00000</li>
+            <li>Phone: +91 87358 61001</li>
             <li>Address: [ADD ADDRESS]</li>
           </ul>
         </div>

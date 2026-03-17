@@ -135,7 +135,10 @@ function ContactPage() {
             <h3 className="text-lg font-semibold text-slate-900">Business Details</h3>
             <ul className="mt-4 space-y-2 text-sm text-slate-700">
               <li>
-                <strong>UDYAM REGISTRATION NUMBER:</strong> [ADD VALUE]
+                <strong>UDYAM REGISTRATION NUMBER:</strong> UDYAM-GJ-11-0026777
+              </li>
+              <li>
+                <strong>CONTACT NUMBER:</strong> +91 87358 61001
               </li>
               <li>
                 <strong>NAME OF ENTERPRISE:</strong> Dev Tourse and Travels
