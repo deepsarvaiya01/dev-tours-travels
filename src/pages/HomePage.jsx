@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import SectionHeading from '../components/SectionHeading'
 import ServiceCard from '../components/ServiceCard'
-import TestimonialCard from '../components/TestimonialCard'
 
 const services = [
   {
@@ -21,21 +20,51 @@ const services = [
   },
 ]
 
-const testimonials = [
+const travelGallery = [
   {
-    name: 'Aarav Mehta',
-    location: 'Ahmedabad',
-    message: 'The booking process was smooth and the trip was perfectly organized.',
+    title: 'Taj Mahal, Agra',
+    image:
+      'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80',
   },
   {
-    name: 'Priya Shah',
-    location: 'Surat',
-    message: 'Excellent service and support throughout our family vacation.',
+    title: 'Jaipur, Rajasthan',
+    image:
+      'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=80',
   },
   {
-    name: 'Rahul Patel',
-    location: 'Vadodara',
-    message: 'Great value packages and very professional team.',
+    title: 'Kolkata, West Bengal',
+    image:
+      'https://images.unsplash.com/photo-1558431382-27e303142255?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    title: 'South India Temples',
+    image:
+      'https://commons.wikimedia.org/wiki/Special:FilePath/1000_years_Old_Thanjavur_Brihadeeshwara_Temple_View_at_Sunrise.jpg',
+  },
+  {
+    title: 'Meenakshi Temple, Madurai',
+    image:
+      'https://commons.wikimedia.org/wiki/Special:FilePath/Meenakshi_Amman_West_Tower.jpg',
+  },
+  {
+    title: 'Jammu & Kashmir',
+    image:
+      'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    title: 'Nepal Himalayas',
+    image:
+      'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    title: 'Gujarat Heritage',
+    image:
+      'https://images.unsplash.com/photo-1627894483216-2138af692e32?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    title: 'Maharashtra Coastline',
+    image:
+      'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80',
   },
 ]
 
@@ -63,10 +92,19 @@ function HomePage() {
       </section>
 
       <section>
-        <SectionHeading title="Testimonials" subtitle="What our travelers say about us." />
+        <SectionHeading title="Travel Inspiration" subtitle="Handpicked destinations for your next trip." />
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {testimonials.map((testimonial) => (
-            <TestimonialCard key={testimonial.name} {...testimonial} />
+          {travelGallery.map((item) => (
+            <article key={item.title} className="group overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+              <img
+                src={item.image}
+                alt={item.title}
+                className="h-64 w-full object-cover transition duration-300 group-hover:scale-105"
+              />
+              <div className="bg-white p-4">
+                <h3 className="text-lg font-semibold text-slate-900">{item.title}</h3>
+              </div>
+            </article>
           ))}
         </div>
       </section>

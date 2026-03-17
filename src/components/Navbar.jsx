@@ -14,14 +14,14 @@ function Navbar() {
   const navLinkClass = ({ isActive }) =>
     `rounded-md px-3 py-2 text-sm font-medium transition ${
       isActive
-        ? 'bg-sky-100 text-sky-700'
-        : 'text-slate-700 hover:bg-slate-100 hover:text-sky-700'
+        ? 'bg-white/20 text-white'
+        : 'text-sky-50 hover:bg-white/15 hover:text-white'
     }`
 
   return (
-    <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur-md">
+    <header className="sticky top-0 z-20 border-b border-sky-700/40 bg-gradient-to-r from-sky-700 to-emerald-600 backdrop-blur-md">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        <Link to="/" className="text-lg font-bold text-sky-700">
+        <Link to="/" className="text-lg font-bold text-white">
           Dev Tourse and Travels
         </Link>
 
@@ -35,7 +35,7 @@ function Navbar() {
 
         <button
           type="button"
-          className="rounded-md p-2 text-slate-700 hover:bg-slate-100 md:hidden"
+          className="rounded-md p-2 text-white hover:bg-white/15 md:hidden"
           onClick={() => setIsMenuOpen((prev) => !prev)}
           aria-label="Toggle menu"
           aria-expanded={isMenuOpen}
@@ -67,7 +67,7 @@ function Navbar() {
       </div>
 
       {isMenuOpen && (
-        <nav className="border-t border-slate-200 bg-white px-4 py-3 md:hidden">
+        <nav className="border-t border-white/20 bg-gradient-to-r from-sky-700 to-emerald-600 px-4 py-3 md:hidden">
           <div className="flex flex-col gap-2">
             {navItems.map((item) => (
               <NavLink

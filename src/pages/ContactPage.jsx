@@ -138,13 +138,14 @@ function ContactPage() {
                 <strong>UDYAM REGISTRATION NUMBER:</strong> UDYAM-GJ-11-0026777
               </li>
               <li>
-                <strong>CONTACT NUMBER:</strong> +91 87358 61001
+                <strong>CONTACT NUMBER:</strong> +91 87358 61001 / +91 97732 53022
               </li>
               <li>
                 <strong>NAME OF ENTERPRISE:</strong> Dev Tourse and Travels
               </li>
               <li>
-                <strong>OFFICIAL ADDRESS OF ENTERPRISE:</strong> [ADD ADDRESS]
+                <strong>OFFICIAL ADDRESS OF ENTERPRISE:</strong> Tulasi Palace, 1st floor, Near
+                gate, Madhuram road Junagadh, 362001, Gujarat, India
               </li>
             </ul>
           </div>
@@ -152,7 +153,7 @@ function ContactPage() {
           <div className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
             <iframe
               title="Google Maps location"
-              src="https://www.google.com/maps?q=India&output=embed"
+              src="https://www.google.com/maps?q=21.501951,70.429535&output=embed"
               loading="lazy"
               className="h-64 w-full border-0"
               referrerPolicy="no-referrer-when-downgrade"
