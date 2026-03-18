@@ -9,7 +9,7 @@ function TermsConditionsPage() {
         <section>
           <h3 className="text-xl font-semibold text-slate-900">1. Acceptance of Terms</h3>
           <p className="mt-2">
-            By using this website or booking services through Dev Tourse and Travels, you agree to
+            By using this website or booking services through DEV TOURS & TRAVELS, you agree to
             these Terms & Conditions and applicable laws.
           </p>
         </section>
@@ -58,7 +58,7 @@ function TermsConditionsPage() {
         <section>
           <h3 className="text-xl font-semibold text-slate-900">7. Liability Disclaimer</h3>
           <p className="mt-2">
-            Dev Tourse and Travels acts as an intermediary between travelers and third-party service
+            DEV TOURS & TRAVELS acts as an intermediary between travelers and third-party service
             providers. We are not liable for delays, cancellations, losses, or incidents caused by
             factors beyond our reasonable control.
           </p>
@@ -83,11 +83,11 @@ function TermsConditionsPage() {
         <section>
           <h3 className="text-xl font-semibold text-slate-900">10. Contact Details</h3>
           <p className="mt-2">
-            Dev Tourse and Travels<br />
+            DEV TOURS & TRAVELS<br />
             UDYAM Registration Number: UDYAM-GJ-11-0026777<br />
             Email: devtoursandtravels86@gmail.com<br />
             Phone: +91 87358 61001 / +91 97732 53022<br />
-            Address: Tulasi Palace, 1st floor, Near gate, Madhuram road Junagadh, 362001, Gujarat,
+            Address: Tulsi Palace, 1st floor, Near gate, Madhuram road Junagadh, 362001, Gujarat,
             India
           </p>
         </section>

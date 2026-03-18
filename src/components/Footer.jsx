@@ -5,8 +5,9 @@ function Footer() {
     <footer className="mt-10 border-t border-sky-700/40 bg-gradient-to-r from-sky-700 to-emerald-600 text-white">
       <div className="mx-auto grid w-full max-w-7xl gap-8 px-4 py-10 sm:px-6 md:grid-cols-3 lg:px-8">
         <div>
-          <h3 className="text-lg font-semibold text-white">Dev Tourse and Travels</h3>
+          <h3 className="text-lg font-semibold text-white">DEV TOURS & TRAVELS</h3>
           <p className="mt-2 text-sm text-sky-50">Your trusted travel partner for memorable journeys.</p>
+          <p className="mt-2 text-sm text-sky-50">UDYAM REGISTRATION NUMBER: UDYAM-GJ-11-0026777</p>
         </div>
 
         <div>
@@ -32,13 +33,13 @@ function Footer() {
           <ul className="mt-3 space-y-2 text-sm text-sky-50">
             <li>Email: devtoursandtravels86@gmail.com</li>
             <li>Phone: +91 87358 61001 / +91 97732 53022</li>
-            <li>Address: Tulasi Palace, 1st floor, Near gate, Madhuram road Junagadh, 362001, Gujarat, India</li>
+            <li>Address: Tulsi Palace, 1st floor, Near gate, Madhuram road Junagadh, 362001, Gujarat, India</li>
           </ul>
         </div>
       </div>
 
       <div className="border-t border-white/20 py-4 text-center text-xs text-sky-50">
-        © {new Date().getFullYear()} Dev Tourse and Travels. All rights reserved.
+        © {new Date().getFullYear()} DEV TOURS & TRAVELS. All rights reserved.
       </div>
     </footer>
   )

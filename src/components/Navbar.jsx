@@ -22,7 +22,7 @@ function Navbar() {
     <header className="sticky top-0 z-20 border-b border-sky-700/40 bg-gradient-to-r from-sky-700 to-emerald-600 backdrop-blur-md">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <Link to="/" className="text-lg font-bold text-white">
-          Dev Tourse and Travels
+          DEV TOURS & TRAVELS
         </Link>
 
         <nav className="hidden items-center gap-2 md:flex">

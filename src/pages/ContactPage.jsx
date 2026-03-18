@@ -141,10 +141,10 @@ function ContactPage() {
                 <strong>CONTACT NUMBER:</strong> +91 87358 61001 / +91 97732 53022
               </li>
               <li>
-                <strong>NAME OF ENTERPRISE:</strong> Dev Tourse and Travels
+                <strong>NAME OF ENTERPRISE:</strong> DEV TOURS & TRAVELS
               </li>
               <li>
-                <strong>OFFICIAL ADDRESS OF ENTERPRISE:</strong> Tulasi Palace, 1st floor, Near
+                <strong>OFFICIAL ADDRESS OF ENTERPRISE:</strong> Tulsi Palace, 1st floor, Near
                 gate, Madhuram road Junagadh, 362001, Gujarat, India
               </li>
             </ul>

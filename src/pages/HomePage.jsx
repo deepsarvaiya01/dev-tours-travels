@@ -72,7 +72,7 @@ function HomePage() {
   return (
     <div className="space-y-16">
       <section className="rounded-2xl bg-gradient-to-r from-sky-600 to-emerald-500 px-6 py-16 text-center text-white shadow-lg sm:px-10">
-        <h1 className="text-4xl font-extrabold sm:text-5xl">Dev Tourse and Travels</h1>
+        <h1 className="text-4xl font-extrabold sm:text-5xl">DEV TOURS & TRAVELS</h1>
         <p className="mt-4 text-lg text-sky-50">Your Trusted Travel Partner</p>
         <Link
           to="/contact"

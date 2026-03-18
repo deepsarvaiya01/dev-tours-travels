@@ -86,11 +86,11 @@ function PrivacyPolicyPage() {
         <section>
           <h3 className="text-xl font-semibold text-slate-900">10. Contact Us</h3>
           <p className="mt-2">
-            Dev Tourse and Travels<br />
+            DEV TOURS & TRAVELS<br />
             UDYAM Registration Number: UDYAM-GJ-11-0026777<br />
             Email: devtoursandtravels86@gmail.com<br />
             Phone: +91 87358 61001 / +91 97732 53022<br />
-            Address: Tulasi Palace, 1st floor, Near gate, Madhuram road Junagadh, 362001, Gujarat,
+            Address: Tulsi Palace, 1st floor, Near gate, Madhuram road Junagadh, 362001, Gujarat,
             India
           </p>
         </section>
